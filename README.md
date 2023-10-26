@@ -9,5 +9,5 @@ Utilized the ResNet50 neural network architecture for training on an external GP
 Achieved the target Mean Absolute Error (MAE) of 6.3515 in 6 epochs using the Adam optimizer with a learning rate of 0.0001.  
 
 ## Additional Information
-Data source: http://158.109.8.102/AppaRealAge/appa-real-release.zip  
-Main libraries used: Keras, NumPy, Pandas, Matplotlib
+Data source: [zip_archive](http://158.109.8.102/AppaRealAge/appa-real-release.zip)  
+Toolkit: Keras, EDA, Python, NumPy, Pandas, Matplotlib

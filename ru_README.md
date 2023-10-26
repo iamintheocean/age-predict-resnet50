@@ -9,5 +9,5 @@
 Удалось получить целевое значение MAE 6.3515 на 6 эпохах с оптимизатором Adam при значении learning rate = 0.0001.
 
 ## Доп. информация
-Использованы данные http://158.109.8.102/AppaRealAge/appa-real-release.zip  
-Основные библиотеки: Keras, NumPy, Pandas, Matplotlib
+Источник данных: [zip-архив](http://158.109.8.102/AppaRealAge/appa-real-release.zip)  
+Основные инструменты: Keras, EDA, Python, NumPy, Pandas, Matplotlib

@@ -1,10 +1,13 @@
-# Determine of people's age using CNN for face recognition
+# Determining people's age from photo using CNN for face recognition.
 
-## Пример описания проектов в README.md
+## Project Description
+This project is dedicated to building a model for determining the age of customers at the cash registers in a store using computer vision technology. The goal is to analyze purchases and create targeted advertising offers.
 
-Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница).
+## Key Findings
+Conducted exploratory data analysis of the photo dataset has revealed that the majority of the photos are of people aged between 18 and 40.  
+Utilized the ResNet50 neural network architecture for training on an external GPU server.  
+Achieved the target Mean Absolute Error (MAE) of 6.3515 in 6 epochs using the Adam optimizer with a learning rate of 0.0001.  
 
-| Название проекта | Описание | Используемые библиотеки | 
-| :---------------------- | :---------------------- | :---------------------- |
-| [Test](eng_age_prediction_resnet50.ipynb) | test description | Keras, TensorFlow |
-| [Test2](big_cities_music) | test description2 test description2 test description2 test description2 test description2 test description2 test description2 | Pandas, NumPy |
+## Additional Information
+Data source: http://158.109.8.102/AppaRealAge/appa-real-release.zip  
+Main libraries used: Keras, NumPy, Pandas, Matplotlib
